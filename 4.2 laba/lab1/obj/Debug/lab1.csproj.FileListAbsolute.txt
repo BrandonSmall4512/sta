@@ -1,0 +1,68 @@
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\lab1.exe.config
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\lab1.exe
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\lab1.pdb
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.exe
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.pdb
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.FreeGlut.dll
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.OpenGl.dll
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.Platform.Windows.dll
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.FreeGlut.xml
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.OpenGl.xml
+C:\Бауманка\комп графика\lab1\lab1\bin\Debug\Tao.Platform.Windows.xml
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.Form1.resources
+C:\Бауманка\комп графика\lab1\lab1\obj\Debug\lab1.csproj.CopyComplete
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\lab1.exe.config
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\lab1.exe
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\lab1.pdb
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.FreeGlut.dll
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.OpenGl.dll
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.Platform.Windows.dll
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.FreeGlut.xml
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.OpenGl.xml
+C:\Бауманка\комп графика\4laba\lab1\bin\Debug\Tao.Platform.Windows.xml
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.Form1.resources
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.csproj.CopyComplete
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.exe
+C:\Бауманка\комп графика\4laba\lab1\obj\Debug\lab1.pdb
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\lab1.exe.config
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\lab1.exe
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\lab1.pdb
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.FreeGlut.dll
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.OpenGl.dll
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.Platform.Windows.dll
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.FreeGlut.xml
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.OpenGl.xml
+C:\Бауманка\комп графика\4.2 laba\lab1\bin\Debug\Tao.Platform.Windows.xml
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.SuggestedBindingRedirects.cache
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.Form1.resources
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.CopyComplete
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.exe
+C:\Бауманка\комп графика\4.2 laba\lab1\obj\Debug\lab1.pdb
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\lab1.exe.config
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\lab1.exe
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\lab1.pdb
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\Tao.FreeGlut.xml
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\Tao.OpenGl.xml
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.AssemblyReference.cache
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.Form1.resources
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.Properties.Resources.resources
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.csproj.Up2Date
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.exe
+C:\Users\Brandon_small\Desktop\комп графика\4.2 laba\lab1\obj\Debug\lab1.pdb
