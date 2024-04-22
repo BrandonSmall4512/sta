@@ -1,0 +1,175 @@
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\2Lab.exe.config
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\2Lab.exe
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\2Lab.pdb
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.csproj.SuggestedBindingRedirects.cache
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.exe
+D:\К3-46Б Тимофеев Иван\2\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\2Lab.exe.config
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\2Lab.exe
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\2Lab.pdb
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+E:\Задание 1\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.csproj.SuggestedBindingRedirects.cache
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.exe
+E:\Задание 1\2\2Lab\2Lab\obj\Debug\2Lab.pdb
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\2Lab.exe.config
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\2Lab.exe
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\2Lab.pdb
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\Иван\source\repos\2\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.exe
+C:\Users\Иван\source\repos\2\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.exe
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\2Lab.exe.config
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\2Lab.exe
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\2Lab.pdb
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+E:\Задание 1\3\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+E:\Задание 1\3\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\2Lab.exe.config
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\2Lab.exe
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\2Lab.pdb
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.exe
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+E:\Задание 1\4\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+E:\Задание 1\4\2Lab\2Lab\obj\Debug\2Lab.csproj.SuggestedBindingRedirects.cache
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\_2Lab.Form1.resources
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.exe
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\2Lab.exe.config
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\2Lab.exe
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\2Lab.pdb
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+E:\Задание 1\5\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+E:\Задание 1\5\2Lab\2Lab\obj\Debug\2Lab.csprojAssemblyReference.cache
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\WindowsApplication4.Form1.resources
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.exe
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.pdb
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\2Lab.exe.config
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\2Lab.exe
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\2Lab.pdb
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.FreeGlut.xml
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.OpenGl.xml
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.xml
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.DevIl.xml
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.FreeGlut.dll
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.OpenGl.dll
+E:\Задание 1\6\2Lab\2Lab\bin\Debug\Tao.Platform.Windows.dll
+E:\Задание 1\6\2Lab\2Lab\obj\Debug\2Lab.csprojAssemblyReference.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\WindowsApplication4.Form1.resources
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.exe
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.pdb
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\2Lab.exe.config
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\2Lab.exe
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\2Lab.pdb
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.FreeGlut.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.OpenGl.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.Platform.Windows.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\2Lab.exe.config
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\2Lab.exe
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\2Lab.pdb
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.FreeGlut.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.OpenGl.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.Platform.Windows.dll
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\WindowsApplication4.Form1.resources
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.exe
+C:\Users\paves\OneDrive\Рабочий стол\Афанасьева\5.1\2Lab\obj\Debug\2Lab.pdb
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\2Lab.exe.config
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\2Lab.exe
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\2Lab.pdb
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.FreeGlut.dll
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.OpenGl.dll
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.Platform.Windows.dll
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\razji\Downloads\5.1\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.csproj.AssemblyReference.cache
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\WindowsApplication4.Form1.resources
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.csproj.GenerateResource.cache
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.csproj.CoreCompileInputs.cache
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.csproj.CopyComplete
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.exe
+C:\Users\razji\Downloads\5.1\2Lab\obj\Debug\2Lab.pdb

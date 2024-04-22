@@ -1,0 +1,16 @@
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\2Lab.exe.config
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\2Lab.exe
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\2Lab.pdb
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\Lab.csproj.AssemblyReference.cache
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\Lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\WindowsApplication4.Form1.resources
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\_2Lab.Properties.Resources.resources
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\Lab.csproj.GenerateResource.cache
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\Lab.csproj.CopyComplete
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\2Lab.exe
+C:\Users\maksd\Desktop\CGA_5.1\2Lab\obj\Debug\2Lab.pdb
