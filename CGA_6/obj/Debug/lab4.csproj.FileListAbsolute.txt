@@ -1,0 +1,78 @@
+D:\documents\C#\lab4\bin\Debug\lab4.exe.config
+D:\documents\C#\lab4\bin\Debug\lab4.exe
+D:\documents\C#\lab4\bin\Debug\lab4.pdb
+D:\documents\C#\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+D:\documents\C#\lab4\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+D:\documents\C#\lab4\obj\Debug\lab4.Form1.resources
+D:\documents\C#\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\documents\C#\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
+D:\documents\C#\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\documents\C#\lab4\obj\Debug\lab4.exe
+D:\documents\C#\lab4\obj\Debug\lab4.pdb
+D:\documents\C#\lab4\bin\Debug\Tao.FreeGlut.dll
+D:\documents\C#\lab4\bin\Debug\Tao.OpenGl.dll
+D:\documents\C#\lab4\bin\Debug\Tao.Platform.Windows.dll
+D:\documents\C#\lab4\bin\Debug\Tao.FreeGlut.xml
+D:\documents\C#\lab4\bin\Debug\Tao.OpenGl.xml
+D:\documents\C#\lab4\bin\Debug\Tao.Platform.Windows.xml
+D:\documents\C#\lab4\obj\Debug\lab4.csproj.CopyComplete
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\lab4.exe.config
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\lab4.exe
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\lab4.pdb
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.DevIl.dll
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.FreeGlut.dll
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.OpenGl.dll
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.Platform.Windows.dll
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.DevIl.xml
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.FreeGlut.xml
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.OpenGl.xml
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\bin\Debug\Tao.Platform.Windows.xml
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.csproj.AssemblyReference.cache
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.Form1.resources
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.Properties.Resources.resources
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.csproj.GenerateResource.cache
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.csproj.CopyComplete
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.exe
+D:\Desktop\Институт\2 год\2 семестр\Компьютерная графика\lab6\Result\lab4_1\obj\Debug\lab4.pdb
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\lab4.exe.config
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\lab4.exe
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\lab4.pdb
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\Tao.DevIl.xml
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\Tao.FreeGlut.xml
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\Tao.OpenGl.xml
+C:\Users\maksd\Desktop\lab6\Result\lab6\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.Form1.resources
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.csproj.CopyComplete
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.exe
+C:\Users\maksd\Desktop\lab6\Result\lab6\obj\Debug\lab4.pdb
+C:\Users\maksd\Desktop\CGA_6\bin\Debug\lab4.exe.config
+C:\Users\maksd\Desktop\CGA_6\bin\Debug\lab4.exe
+C:\Users\maksd\Desktop\CGA_6\bin\Debug\lab4.pdb
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.Form1.resources
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.Properties.Resources.resources
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.csproj.CopyComplete
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.exe
+C:\Users\maksd\Desktop\CGA_6\obj\Debug\lab4.pdb
+C:\Bauman\комп графика\CGA_6\bin\Debug\lab4.exe.config
+C:\Bauman\комп графика\CGA_6\bin\Debug\lab4.exe
+C:\Bauman\комп графика\CGA_6\bin\Debug\lab4.pdb
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.Form1.resources
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.Properties.Resources.resources
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.csproj.GenerateResource.cache
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.csproj.CopyComplete
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.exe
+C:\Bauman\комп графика\CGA_6\obj\Debug\lab4.pdb
