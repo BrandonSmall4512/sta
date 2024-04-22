@@ -1,0 +1,51 @@
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Lab.exe.config
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Lab.exe
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Lab.pdb
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.csproj.AssemblyReference.cache
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.csproj.SuggestedBindingRedirects.cache
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\_2Lab.Form1.resources
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.Properties.Resources.resources
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.csproj.GenerateResource.cache
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.csproj.CopyComplete
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.exe
+C:\Users\maksd\Desktop\CGA_5.2\2Lab\obj\Debug\Lab.pdb
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.exe.config
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.exe
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.pdb
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.DevIl.dll
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.FreeGlut.dll
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.OpenGl.dll
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.Platform.Windows.dll
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Bauman\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.AssemblyReference.cache
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.SuggestedBindingRedirects.cache
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\_2Lab.Form1.resources
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.Properties.Resources.resources
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.GenerateResource.cache
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.CopyComplete
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.exe
+C:\Bauman\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.pdb
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.exe.config
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.exe
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Lab.pdb
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.DevIl.xml
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.FreeGlut.xml
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.OpenGl.xml
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\bin\Debug\Tao.Platform.Windows.xml
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.AssemblyReference.cache
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\_2Lab.Form1.resources
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.Properties.Resources.resources
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.GenerateResource.cache
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.CoreCompileInputs.cache
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.csproj.Up2Date
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.exe
+C:\Users\Brandon_small\Desktop\комп графика\CGA_5.2\2Lab\obj\Debug\Lab.pdb
