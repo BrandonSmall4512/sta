@@ -1,0 +1,553 @@
+#include <iostream>
+#include <mutex>
+#include <vector>
+#include <functional>
+#include <chrono>
+#include <iomanip>
+using namespace std;
+
+template <typename T>
+class BinarySearchTree{
+    private:
+        struct Node
+        {
+            T key; //ключ узла
+            Node* left; //указатель на левого потомка
+            Node* right; //указатель на правого потомка
+            Node (const T& value){ //конструктор по умолчанию
+                key = value;
+                left = nullptr;
+                right = nullptr;
+            }
+        };
+        
+        Node* root; //указатель на корневой узел дерева
+        mutex tree_mutex; // Мьютекс для синхронизации доступа к дереву
+        
+    public:
+        BinarySearchTree() {
+            root = nullptr;
+        }
+        /////////////////////////////////////
+        void Insert (const T& value){ //добавление элемента
+            lock_guard<mutex> lock(tree_mutex); // tree_mutex блокирует доступ к дереву для других потоков во время выполнения этого метода.
+            root = Insert (root, value);        //только один поток может выполнять операцию вставки в дерево в определенный момент.
+        }
+        //перегрузка оператора << для добавления элемента
+        friend BinarySearchTree& operator<<(BinarySearchTree& tree, const T& value) {
+            tree.Insert(value);
+            return tree;
+        }
+        //перегрузка оператора << для добавления поддерева
+        BinarySearchTree& operator<<(const BinarySearchTree& subtree) {
+        unite(subtree);
+        return *this;
+        }
+        //вспомогательная функция для вставки элемента
+        Node* Insert (Node* node, const T& value){ 
+            if (node == nullptr){
+                return new Node(value);
+            }
+            
+            if (value < node->key){
+                node->left=Insert(node->left, value);
+            }
+            else{
+                node->right = Insert (node->right, value);
+            }
+            
+            return node;
+        }
+        ///////////////////////////////////
+        BinarySearchTree(const BinarySearchTree& other) { //конструктор копирования
+            root = copyTree(other.root);
+        }
+        
+        Node* copyTree(Node* node) { //вспомогательная функция для конструктора копирования
+            if (node == nullptr) {
+                return nullptr;
+            }
+            
+            Node* newNode = new Node(node->key);
+            newNode->left = copyTree(node->left);
+            newNode->right = copyTree(node->right);
+            
+            return newNode;
+        }
+        
+        BinarySearchTree (initializer_list<T> values){ //конструктор инициализации
+            root = nullptr;
+            for (const T& value : values) 
+            {
+            Insert(value);
+            }
+        }
+    
+        ~BinarySearchTree() { //деструктор принимающий указатель на корень дерева
+            DestroyTree(root);
+        }
+        
+        void DestroyTree(Node* node) { //вспомогательная функция для деструктора
+            if (node == nullptr) {
+                return;
+            }
+        
+            DestroyTree(node->left);
+            DestroyTree(node->right);
+            delete node;
+        }
+
+        BinarySearchTree (BinarySearchTree&& other) { //конструктор перемещения
+            root = other.root;
+            other.root = nullptr;
+        }
+        
+        template <typename Iterator> //конструктор с итераторами
+        BinarySearchTree(Iterator begin, Iterator end) {
+            root = nullptr;
+            for (Iterator it = begin; it != end; ++it) {
+                Insert(*it);
+            }
+        }
+        ///////////////////////////////////////
+        T findValue(const T& key) { //вспомогательная функция для поиска
+            Node* result = search (root, key);
+            if (result) {
+                return result->key;
+            } else {
+                throw runtime_error("Такого значения в дереве нет");
+            }
+        }
+        
+        Node* search(Node* node, const T& key) { //вспомогательная функция для поиска
+        if (node == nullptr || key == node->key) {
+            return node; //ключ был найден в текущем поддереве, и возвращается узел, содержащий этот ключ.
+        }
+        if (key < node->key) {
+            return search(node->left, key);
+        }
+        else {
+            return search(node->right, key);
+        }
+        }
+        ////////////////////////////////
+        void Delete_Elem(const T& key) {
+            root = Delete_Elem(root, key);
+        }
+        
+        Node* Delete_Elem(Node* node, const T& key)
+        {
+            if (node == nullptr) {
+                throw runtime_error("Такого значения в дереве нет");
+            }
+            else if (key < node->key) {
+                node->left = Delete_Elem(node->left, key);
+            }
+            else if (key > node->key) {
+                node->right = Delete_Elem(node->right, key);
+            }
+            else { //Если текущий узел не имеет детей (ни левого, ни правого),
+                if (node->left == nullptr && node->right == nullptr) { //он удаляется, и метод возвращает nullptr вместо этого узла.
+                    delete node;
+                    return nullptr;
+                } //Если у узла есть только од ребенок (либо левый, либо правый)
+                else if (node->left == nullptr) {
+                    Node* temp = node;  //этот ребенок "поднимается" на место удаляемого узла, а затем удаляется
+                    node = node->right;
+                    delete temp;
+                }
+                else if (node->right == nullptr) {
+                    Node* temp = node; //этот ребенок "поднимается" на место удаляемого узла, а затем удаляется
+                    node = node->left;
+                    delete temp;
+                }
+                else { //Если у узла есть оба ребенка, находится узел с наименьшим ключом в правом поддереве (метод minValueNode).
+                    Node* temp = minValueNode(node->right);  //Этот узел заменяет текущий узел, а затем удаляется из правого поддерева.
+                    node->key = temp->key;
+                    node->right = Delete_Elem(node->right, temp->key);
+                }
+            }
+            return node; // Возвращаем обновленный узел
+        }
+        
+        Node* minValueNode (Node* node){
+            Node* current = node;
+            while (current->left != nullptr){
+                current = current->left;
+            }
+            return current;
+        }
+        ////////////////////////////////
+        void clear (){ //очистка дерева
+            clear (root); //вызываем вспомогательную функцию начиная с корня
+            root == nullptr; //обнуляем корень
+        }
+        
+        void clear (Node* node){
+            if (node == nullptr){
+                throw runtime_error ("В дереве нет узлов");
+            }
+            if (node){
+                clear (node->left); //рекурсивная очистка левого поддерева
+                clear (node->right); //рекурсивная очистка правого поддерева
+                delete node; //удаляем узел
+            }
+        }
+        ///////////////////// Метод для печати дерева в поток
+        friend ostream& operator<< (ostream& os, const BinarySearchTree& tree){
+            if (tree.root == nullptr){
+                throw runtime_error ("В дереве нет узлов");
+            }
+            tree.print(os); //вызов метода print, куда передаётся поток os 
+            return os;
+        }
+        
+        void print(ostream& os = cout) const { //вспомогательная функция для печати дерева
+            inOrderTraversal(root, os);
+        }
+    
+        void inOrderTraversal(Node* node, ostream& os) const { //вспомогательная функция для печати дерева
+            if (node == nullptr) {
+                return;
+            }
+            inOrderTraversal(node->left, os);
+            os << node->key << " ";
+            inOrderTraversal(node->right, os);
+        }
+        /////////////////////
+        bool operator == (const BinarySearchTree& other){ //перегрузка оператора ==
+            if (root == nullptr && other.root == nullptr) {
+                return true; // Оба дерева пусты и считаются равными.
+            }
+            return isIdentical(root, other.root);
+        }
+        
+        bool isIdentical (const Node* node_1, const Node* node_2){ //вспомогательная функция для оператора ==
+            if (node_1 == nullptr && node_2 == nullptr){
+                return true;
+            }
+            if (node_1 == nullptr || node_2 == nullptr){
+                return false;
+            }
+            // Проверяем, что ключи в узлах равны, и продолжаем сравнивать левые и правые поддеревья
+            return (node_1->key == node_2->key) && isIdentical(node_1->left, node_2->left) && isIdentical(node_1->right, node_2->right);
+        }
+        
+        bool operator != (const BinarySearchTree& other){ //перегрузка оператора != (через отрицание оператора ==)
+            if (root == nullptr && other.root == nullptr) {
+                return false; // Оба дерева пусты и считаются равными.
+            }
+            return !isIdentical(root, other.root);
+        }
+        ////////////////
+        void unite(const BinarySearchTree& other) { //метод для добавления поддерева (слияние 2 деревьев)
+            if (other.root != nullptr) {
+                unite(root, other.root);
+            }
+        }
+
+        void unite(Node* root1, Node* root2) { //вспомоигательный метод для слияния двух деревьев
+            if (root2 == nullptr) {
+                return;
+            }
+        
+            root1 = Insert(root1, root2->key); // Предполагается, что у вас есть метод Insert для вставки ключа в дерево
+        
+            unite(root1, root2->left);
+            unite(root1, root2->right);
+        }
+        ////////////////
+        BinarySearchTree findTree(const T& key) { 
+            Node* subtreeRoot = findSubtreeRoot(root, key);
+            if (subtreeRoot == nullptr) {
+                throw runtime_error("Поддерево с указанным ключом не найдено.");
+            }
+            BinarySearchTree subtree;
+            subtree.root = copySubtree(subtreeRoot);
+            return subtree;
+        }
+        //рекурсивный поиск поддерева в текущем дереве
+        Node* findSubtreeRoot(Node* node, const T& key) { //Если узел node имеет ключ, равный key, то метод возвращает этот узел. 
+            if (node == nullptr || node->key == key) {
+                return node;
+            }
+            if (key < node->key) { //если нет - идем в левое поддерево
+                return findSubtreeRoot(node->left, key);
+            } else {
+                return findSubtreeRoot(node->right, key);
+            }
+        }
+        
+        Node* copySubtree(Node* originalRoot) { //копируем наше поддерево в новое пустое дерево
+            if (originalRoot == nullptr) {
+                return nullptr;
+            }
+            Node* newNode = new Node(originalRoot->key);
+            newNode->left = copySubtree(originalRoot->left);
+            newNode->right = copySubtree(originalRoot->right);
+            return newNode;
+        }
+        //PreOrderTraversal, принимающий функцию обратного вызова
+        void PreOrderTraversal(Node* node, const function<void(const T&)>& callback) {
+            if (node == nullptr) {
+                return;
+            }
+            callback(node->key);
+            PreOrderTraversal(node->left, callback);
+            PreOrderTraversal(node->right, callback);
+        }
+        //InOrderTraversal, принимающий функцию обратного вызова
+        void InOrderTraversal(Node* node, const function<void(const T&)>& callback) {
+            if (node == nullptr) {
+                return;
+            }
+            InOrderTraversal(node->left, callback);
+            callback(node->key);
+            InOrderTraversal(node->right, callback);
+        }
+        //PostOrderTraversal, принимающий функцию обратного вызова
+        void PostOrderTraversal(Node* node, const function<void(const T&)>& callback) {
+            if (node == nullptr) {
+                return;
+            }
+            PostOrderTraversal(node->left, callback);
+            PostOrderTraversal(node->right, callback);
+            callback(node->key);
+        }
+    
+        // Метод для обхода дерева с использованием функции обратного вызова
+        void Traverse(const function<void(const T&)>& callback, int order = 0) {
+            if (order == 0) {
+                PreOrderTraversal(root, callback);
+            }
+            else if (order == 1) {
+                InOrderTraversal(root, callback);
+            }
+            else if (order == 2) {
+                PostOrderTraversal(root, callback);
+            }
+        }
+        
+        // Геттер для корня дерева
+        Node* getRoot() const {
+            return root;
+        }
+};
+
+int main()
+{
+    using T = int; //использование синонимов
+    BinarySearchTree<T> test;
+        
+    test.Insert(2);
+    test.Insert(3);
+    test.Insert(7);
+    //лямбда функция принимает один аргумент (целое число) и выводит это число в консоль с добавлением пробела
+    auto printCallback = [](const int& value) {
+        cout << value << " ";
+    };
+
+    cout <<"Прямой обход (КЛП): корень → левое поддерево → правое поддерево: ";
+    test.Traverse(printCallback, 0);
+    cout << endl;
+    
+    cout <<"Центрированный обход (ЛКП): левое поддерево → корень → правое поддерево: ";
+    test.Traverse(printCallback, 1);
+    cout << endl;
+    
+    cout <<"Обратный обход (ЛПК): левое поддерево → правое поддерево → корень: ";
+    test.Traverse(printCallback, 2);
+    cout << endl;
+    
+    BinarySearchTree<T> copyTest = test;
+    cout << "Результат работы конструктора копирования: ";
+    copyTest.print();
+    cout<<endl;
+    
+    BinarySearchTree<T> tree_2 {5, 2, 3};
+    cout << "Результат работы конструктора инициализации: ";
+    tree_2.print();
+    cout<<endl;
+    
+    BinarySearchTree<T> tempTree;
+    tempTree.Insert(6);
+    tempTree.Insert(4);
+    tempTree.Insert(5);
+    
+    BinarySearchTree<T> tree_3 (move(tempTree));
+    cout << "Результат работы конструктора перемещения: ";
+    tree_3.print();
+    cout<<endl;
+    
+    vector<T> values = {3, 1, 2, 4, 5, 6};
+    BinarySearchTree<T> tree_4(values.begin(), values.end());
+    cout << "Результат работы конструктора с итераторами: ";
+    tree_4.print();
+    cout<<endl;
+    
+    BinarySearchTree<T> tree_8;
+    tree_8 << 1 << 2 << 3;
+    cout << "Результат работы перегрузки << для добавления элемента:  " << tree_8 << endl;
+    
+    BinarySearchTree<T> tree_9 = {1, 2, 3};
+    BinarySearchTree<T> tree_10 = {4, 5};
+    tree_9 << tree_10;
+    cout << "Результат работы перегрузки << для добавления поддерева:  " << tree_9 << endl;
+    
+BinarySearchTree<T> tree_11;
+
+    // Замер времени для функции Insert
+    auto startInsert = chrono::high_resolution_clock::now();
+    for (int i = 0; i < 1; ++i) {
+        tree_11.Insert(i);
+    }
+    auto endInsert = chrono::high_resolution_clock::now();
+    chrono::duration<float> insertDuration = endInsert - startInsert;
+    cout << fixed << setprecision(9) << "Insert Duration: " << insertDuration.count() << " seconds\n";
+    
+    // Замер времени для функции findValue
+    auto startFindValue = chrono::high_resolution_clock::now();
+    for (int i = 0; i < 1; ++i) {
+        tree_11.findValue(i);
+    }
+    auto endFindValue = chrono::high_resolution_clock::now();
+    chrono::duration<float> findValueDuration = endFindValue - startFindValue;
+    cout << fixed << setprecision(9) << "FindValue Duration: " << findValueDuration.count() << " seconds\n";
+    
+    // Замер времени для функции Delete_Elem
+    auto startDeleteElem = chrono::high_resolution_clock::now();
+    for (int i = 0; i < 1; ++i) {
+        tree_11.Delete_Elem(i);
+    }
+    auto endDeleteElem = chrono::high_resolution_clock::now();
+    chrono::duration<float> deleteElemDuration = endDeleteElem - startDeleteElem;
+    cout << fixed << setprecision(9) << "DeleteElem Duration: " << deleteElemDuration.count() << " seconds\n";
+    
+    while (1)
+    {
+        int choose;
+        cout<<"Выберите действие которое хотите совершить: 1 - найти элемент, 2 - удалить элемент, " << endl;
+        cout<<"3 - очистить дерево, 4 - распечатать дерево, 5 - оператор ==, 6 - оператор !=, " << endl;
+        cout<<"7 - объединить два дерева, 8 - вернуть поддерево по ключу, 9 - добавить элемент в дерево" << endl;
+        cin >> choose;
+        try 
+        {
+            switch (choose)
+            {
+                case 1: 
+                { 
+                    BinarySearchTree<T> tree_5 = {1, 2, 3, 4};
+                    cout << "Введите значение которое нужно найти в дереве: ";
+                    T find;
+                    cin >> find;
+                    T result = tree_5.findValue (find);
+                    cout << "Результат работы search: " << result << endl;
+                    break;
+                }
+                
+                case 2:
+                {
+                    T del;
+                    BinarySearchTree<T> tree_6 = {1, 2, 3};
+                    cout << "Дерево до удаления элемента: ";
+                    tree_6.print();
+                    cout<<endl;
+                    cout << "Введите элемент который хотите удалить: ";
+                    cin >> del;
+                    tree_6.Delete_Elem(del);
+                    cout << "Дерево после удаления элемента: ";
+                    tree_6.print();
+                    cout<<endl;
+                    break;
+                }
+                
+                case 3:
+                {
+                    BinarySearchTree<T> tree_7 = {1, 3, 5};
+                    cout << "Дерево до удаления: ";
+                    tree_7.print();
+                    cout<<endl;
+                    tree_7.clear();
+                    cout<<"Дерево очищено";
+                    cout<< endl;
+                    break;
+                }
+                
+                case 4:
+                {
+                    BinarySearchTree<T> tree_8 = {1, 5, 7};
+                    cout << "Перегрузка оператора << для распечатки дерева: " << endl;
+                    cout << tree_8;
+                    cout << endl;
+                    break;
+                }
+                
+                case 5:
+                {
+                    BinarySearchTree<T> test = {1, 4, 5};
+                    BinarySearchTree<T> test_2 = {1, 4, 5};
+                    cout <<"Результат работы перегруженного оператора ==: " << endl;
+                    if (test == test_2){
+                        cout << "Деревья равны" << endl;
+                    }
+                    else{
+                        cout << "Деревья не равны" << endl;
+                    }
+                    break;
+                }
+                
+                case 6:
+                {
+                    BinarySearchTree<T> test_3 = {1, 4, 5};
+                    BinarySearchTree<T> test_4 = {1, 5};
+                    cout <<"Результат работы перегруженного оператора ==: " << endl;
+                    if (test_3 != test_4){
+                        cout << "Деревья не равны" << endl;
+                    }
+                    else{
+                        cout << "Деревья равны" << endl;
+                    }
+                    break;
+                }
+                
+                case 7:
+                {
+                    BinarySearchTree<T> test_5 = {1, 3, 5};
+                    BinarySearchTree<T> test_6 = {2, 4};
+                    test_5.unite(test_6);
+                    cout << "Результат добавления дерева test_6 в дерево test_5: ";
+                    cout << test_5;
+                    cout << endl;
+                    break;
+                }
+                
+                case 8:
+                {
+                    BinarySearchTree<T> test_7 = {2, 1, 3, 6, 5, 4};
+                    T key;
+                    cout<<"Введите корень поддерева которое хотите вернуть: " << endl;
+                    cin >> key;
+                    BinarySearchTree<T> subtree = test_7.findTree(key);
+                    cout << "Поддерево:" << endl;
+                    cout << subtree << endl;
+                    break;
+                }
+                case 9:
+                {
+                    BinarySearchTree<T> test_8 = {1, 2};
+                    T key;
+                    cout<<"Введите элемент которое хотите добавить: ";
+                    cin >> key;
+                    test_8.Insert(key);
+                    cout<<"Дерево после добавления элемента: ";
+                    cout << test_8 << endl;
+                }
+            }
+        }
+        catch (const runtime_error& e) 
+        {
+            cout << e.what() << endl;
+        }
+    }
+    return 0;
+}
